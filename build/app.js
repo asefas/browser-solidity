@@ -97411,7 +97411,7 @@ function Compiler (editor, renderer, queryParams, handleGithubCall, outputField,
     if (compileTimeout) {
       window.clearTimeout(compileTimeout);
     }
-    compileTimeout = window.setTimeout(compile, 300);
+    compileTimeout = window.setTimeout(compile, 2000);
   }
 
   editor.onChangeSetup(onChange);
